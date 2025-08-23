@@ -13,7 +13,26 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+/* shared styles  */
+.display-flex{
+    display: flex;
+}
+span{
+    color: #E95A08
+}
+.text-gray{
+    color: rgba(0, 0, 0, 0.5)
+}
+.text-black {
+    color: black
+}
+.font-bold{
+    font-weight: 600
+}
 /* nav  section */
 .nav{
   max-width: 1140px;
@@ -216,8 +235,6 @@ main>section{
                 height: 198px;  
                 margin-bottom: 20px;
               
-             
-
             }
             .box-2{
                 background-image:linear-gradient(rgb(0, 0,0,0.3) ,rgb(0,0,0,0.5)), url(../assets/deal-bloom.png);
@@ -319,6 +336,204 @@ main>section{
       .twitter{
         margin-top: 10px
       }
+       @media screen and (max-width : 576px){
+              .banner{
+            margin: 20px;
+        }
+        .banner-container{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+ .banner-left{
+            text-align: left;
+            margin-top: 0px;
+            width: 500px;
+            
+            
+            
+        }
+        .banner-title{
+    line-height:30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 100px
+
+}
+  .banner-right img{
+        max-width:100%;
+        margin-bottom: 20px;
+       
+    }
+   
+.banner-description{
+    width: 300px;
+    font-size: 0.8rem;
+    margin-left: 100px;
+    
+}
+.link {
+    display:none;
+    font-size: 1.5rem;
+    
+    font-weight: bolder
+}
+
+
+.nav-logo img{
+    width:67px;
+    height: 40px;
+}
+.plants-heading{
+    justify-items: center;
+width: 300px;
+
+}
+.our-plants{
+    margin-top: 65px;
+    max-width: 200;
+}
+   .plants-container{
+     display: grid;
+    grid-template-columns:repeat(2,1fr);
+    max-width: 90%;
+    margin:0 auto;
+
+
+    }
+       .plant-title{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        
+        
+    }
+
+    .plant-description{
+        font-size: 0.8rem;
+    }
+    .plants-lover{
+        display: flex;
+        flex-direction: column;
+    }
+    .flower-plant >.badge{
+        display: none;
+    }
+    .flower-store{
+        max-width: 900px;
+        height: 390px;
+    }
+    .flower-plant{
+        max-width: 361px;
+        height: 234px;
+    }
+    
+             .flower-plant h1{
+                       font-size: 1.5rem;
+                font-weight: bolder;
+                margin-bottom: 15px;
+
+             }
+               
+             .flower-description{
+                font-size: 1rem;
+                max-width: 360px;
+                
+             }
+              .flower-description li{
+                margin-bottom: 16px;
+                
+              }
+              /* flower deals  */
+         @media (max-width: 768px) {
+
+.Latest-Deals{
+    margin-top:200px;
+}
+
+  .flower {
+    flex-direction: column;   
+    align-items: center; 
+        
+  }
+  
+
+  .box-1,.box-2{
+  width: 367px;             
+    height: 200px;           
+    margin-bottom: 20px;  
+    font-size: 1.25rem  ;
+ 
+  }
+  
+ 
+  .box-3 {
+    width: 367px;             
+    height: 200px;           
+    font-size: 1.25rem   
+  }
+
+
+  .deal-1 {
+    position: static;    
+    margin: 20px 0;           
+    text-align: center;
+  }
+}
+.join-section{
+    max-width: 650px;
+    height: 300px;
+ 
+}
+  .join-bunch{
+                 margin-top: 90px;
+               margin-left:-70px;
+          
+      }  
+        .join-bunch> h1{
+                font-size: 1.3rem;
+                
+        
+                    
+              }
+            .input{
+                width: 200px;
+                height: 50px;
+             
+                } 
+
+              .btn{
+                width:110px;
+                height: 50px;
+                
+              } 
+
+                 /*  footer section */
+             .footer{
+                max-width:390px;
+                height: 880px;    display: flex;
+                flex-direction: column;
+            margin-top: 0px;
+                margin-bottom: 50px;
+                margin: 30px;
+              }
+              .ft-head img{
+                margin-bottom:20px;
+                height: 109px;
+                width: 180px; 
+              }
+              .ft-links{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                font-size: 22px;
+                margin-top: 100px;
+                gap: 20px;
+                
+              }
+      
+}
+
+
+
+
             
          
 
