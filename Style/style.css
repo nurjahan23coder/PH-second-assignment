@@ -21,8 +21,6 @@
     display: flex;
     justify-content: space-between;
 padding: 50px;
-
-   
    
 }
 .nav-logo{
@@ -31,8 +29,6 @@ padding: 50px;
 .nav-items {
         list-style: none;
      margin-top: 35px;
-    
-
 }
 .nav-link a{
     text-decoration: none;
@@ -80,3 +76,166 @@ main>section{
     .banner-right{
         max-width:100%;
     }
+      /* our plants section */
+    .plant-title{
+        font-size: 2.5rem;
+        font-weight: bolder;
+        margin-bottom: 16px;
+        
+    }
+    .plants-heading{
+        max-width: 650px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px
+    }
+    .plants-container{
+        display: grid;
+        width: 1140px;
+        height: auto;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        margin-top: 50px;
+    
+    }
+     .plant-card img{
+    
+        width: 100%;
+    }
+
+         .plant-card >button{
+                width: 100%;
+                height: 40px;
+                color: white;
+              
+                background-color: #E95A08;
+                border: none
+
+             }
+             .plant-card h4,.plant-card h3{
+                margin-top: 30px;
+                text-align: center;
+                margin-bottom: 30px
+             }
+             /* flower and plant lover  */
+
+             .plants-lover{
+                display: flex;
+                flex: 1;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 200px
+                
+                
+             }
+             .flower-store{
+                max-width: 540px;
+                height: 590px;
+             }
+             .flower-plant{
+                max-width: 540px;
+                height: 520px;
+             position: relative;
+            
+             }
+             .flower-plant h1,.join-section h1{
+                       font-size: 3rem;
+                font-weight: bolder;
+                margin-bottom: 20px;
+
+             }
+            
+             .flower-description{
+                font-size: 1.5rem;
+                max-width: 550px;
+                
+             }
+              .flower-description li{
+                margin-bottom: 20px;
+                
+              }
+              .badge{
+                max-width: 286px;
+                height: 286px;
+                position: absolute;
+                margin-left: -240px;
+              margin-top: -160px;
+               
+              }
+               /* flower deals */
+             
+            .flower{
+               
+               
+         display: flex;
+         justify-content: space-around; 
+         max-width: 1140px;
+         height: 100%;
+         margin: 0 auto;
+         gap: 20px;
+         position: relative;
+            }
+          
+            .common{
+                  text-align: center;align-items: center;
+                   border-radius: 14px;
+                
+
+            }
+            .deal{
+                position: absolute;
+                margin-top: 90px;
+                margin-left: 90px;
+                font-size: 1.25rem;
+                color: white;
+
+
+
+
+            }
+            .deal a{
+                color: white;
+                font-size: 1rem
+            }
+            .deal-1{
+                     position: absolute;
+                margin-top: 180px;
+                margin-left: 160px
+
+            }
+            .deal-1 a{
+           
+                color: white;
+                font-size: 1.8rem
+            }
+            .box-1{
+              background-image:linear-gradient(rgb(0, 0,0,0.3) ,rgb(0,0,0,0.5)),url(../assets/deal-ana.png);
+            
+            width: 365px;
+                height: 198px;  
+                margin-bottom: 20px;
+              
+             
+
+            }
+            .box-2{
+                background-image:linear-gradient(rgb(0, 0,0,0.3) ,rgb(0,0,0,0.5)), url(../assets/deal-bloom.png);
+                background-repeat: no-repeat;
+                width: 365px;
+                height: 200px;
+                
+              
+             
+            }
+            .box-3{
+                background-image:linear-gradient(rgb(0, 0,0,0.3) ,rgb(0,0,0,0.5)), url(../assets/deal-zabo.png);
+                width: 740px;
+                  font-size: 2.5rem;
+                color: white
+             
+            }
+            
+         
+
+
